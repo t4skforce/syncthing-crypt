@@ -28,3 +28,5 @@ install core requirements
 * [Unit](https://www.freedesktop.org/software/systemd/man/systemd.unit.html)
 #### Inspirational
 * [youtube-dl](https://github.com/rg3/youtube-dl)
+#### Flask
+* [flask-restplus](https://github.com/noirbizarre/flask-restplus)
