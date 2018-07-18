@@ -1,0 +1,11 @@
+[Unit]
+Description=Gocryptfs Syncthing Root Server
+
+[Service]
+User=root
+EnvironmentFile=/etc/default/syncthing-crypt
+ExecStart=
+ExecStart=/usr/bin/syncthing-crypt
+
+[Install]
+WantedBy=multi-user.target

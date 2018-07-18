@@ -1,0 +1,11 @@
+[Unit]
+Description=Gocryptfs Syncthing Web Server
+
+[Service]
+User=%i
+EnvironmentFile=/etc/default/syncthing-crypt
+ExecStart=
+ExecStart=/usr/bin/syncthing-crypt
+
+[Install]
+WantedBy=multi-user.target
