@@ -36,8 +36,10 @@ setuptools.setup(
     data_files=data_files,
     packages=setuptools.find_packages(),
     install_requires=[
-        'Flask>=1.0.2',
-        'Click>=6.7'
+        'flask>=1.0.2',
+        'flask-restplus>=0.11.0'
+        'click>=6.7',
+        'ipaddress>=1.0.22'
     ],
     python_requires='>=3',
     classifiers=(

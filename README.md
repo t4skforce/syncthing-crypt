@@ -28,5 +28,5 @@ install core requirements
 #### Inspirational
 * [youtube-dl](https://github.com/rg3/youtube-dl)
 #### Flask
-* [flask-restplus](https://github.com/noirbizarre/flask-restplus)
+* [Flask-RESTPlus](http://flask-restplus.readthedocs.io/en/stable/)
   * [REST APIs using Flask, Swagger UI and Flask-RESTPlus](http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/)
