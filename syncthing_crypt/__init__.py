@@ -5,7 +5,6 @@ import logging
 import click
 from .lib import ClickIPAddress, ClickValidation, ClickLinuxUser
 name = 'syncthing-crypt'
-logger = logging.getLogger('syncthing-crypt')
 logging.basicConfig(level=logging.INFO,format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
 logger = logging.getLogger(name)
 PACKAGE_HOME=os.path.abspath(os.path.dirname(os.path.abspath(__file__)))
